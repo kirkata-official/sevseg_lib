@@ -1,27 +1,22 @@
-// now import this code into your project
-// make sure you have setup and loop functions
+int G;
+int F;
+int A;
+int B;
+int E;
+int D;
+int C;
+int DP;
 
-// write it in setup function:
-
-//pinMode(G, OUTPUT);
-//pinMode(F, OUTPUT);
-//pinMode(A, OUTPUT);
-//pinMode(B, OUTPUT);
-//pinMode(E, OUTPUT);
-//pinMode(D, OUTPUT);
-//pinMode(C, OUTPUT);
-//pinMode(DP, OUTPUT);
-
-// set pins for your display
-
-int G = 11;
-int F = 10;
-int A = 9;
-int B = 8;
-int E = 7;
-int D = 6;
-int C = 5;
-int DP = 4;
+void sevsegSetup(int g, int f, int a, int b, int e, int d, int c, int dot) {
+  G = g;
+  F = f;
+  A = a;
+  B = b;
+  E = e;
+  D = d;
+  C = c;
+  DP = dot;
+}
 
 void RESET_ALL() {
   digitalWrite(G, LOW);
