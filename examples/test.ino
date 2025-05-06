@@ -24,7 +24,7 @@ In the setup, type the pins you connected your seven segment indicator:
 
 sevsegSetup(G, F, A, B, E, D, C, DP);
 */
-  sevsegSetup(2,3,4,5,6,7,8,9) 
+  sevsegSetup(2,3,4,5,6,7,8,9);
 }
 
 void loop() 
