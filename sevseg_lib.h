@@ -16,6 +16,15 @@ void sevsegSetup(int g, int f, int a, int b, int e, int d, int c, int dot) {
   D = d;
   C = c;
   DP = dot;
+  pinMode(G, OUTPUT);
+  pinMode(F, OUTPUT);
+  pinMode(A, OUTPUT);
+  pinMode(B, OUTPUT);
+  pinMode(E, OUTPUT);
+  pinMode(D, OUTPUT);
+  pinMode(C, OUTPUT);
+  pinMode(DP, OUTPUT);
+
 }
 
 void RESET_ALL() {
